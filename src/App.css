@@ -1,0 +1,95 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.task-input {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.task-input button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #45a049;
+}
+
+.task-lists {
+  display: flex;
+  gap: 20px;
+}
+
+.task-list {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.task-list h2 {
+  margin-top: 0;
+  color: #555;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+}
+
+.task-list li span {
+  flex: 1;
+}
+
+.task-list li button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-list li button:first-of-type {
+  background-color: #2196F3;
+  color: white;
+}
+
+.task-list li button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
+
+.task-list li button:hover {
+  opacity: 0.8;
+}
